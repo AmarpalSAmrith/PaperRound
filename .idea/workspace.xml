@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b256dcdb-e082-48a9-a66c-abb5a7ebf71f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AmarpalAmrith/TrainingMaterials/FileParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmarpalAmrith/TrainingMaterials/Street.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AmarpalAmrith/TrainingMaterials/Utilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PaperRound/AmarpalAmrith/TrainingMaterials/FileParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PaperRound/AmarpalAmrith/TrainingMaterials/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PaperRound/AmarpalAmrith/TrainingMaterials/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PaperRound/AmarpalAmrith/TrainingMaterials/Street.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PaperRound/AmarpalAmrith/TrainingMaterials/Street.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PaperRound/AmarpalAmrith/TrainingMaterials/Utilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AmarpalAmrith/TrainingMaterials/FileParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AmarpalAmrith/TrainingMaterials/StreetFileParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AmarpalAmrith/TrainingMaterials/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AmarpalAmrith/TrainingMaterials/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AmarpalAmrith/TrainingMaterials/Street.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AmarpalAmrith/TrainingMaterials/Street.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AmarpalAmrith/TrainingMaterials/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="165">
+              <caret line="11" column="64" lean-forward="true" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,37 +35,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AmarpalAmrith/TrainingMaterials/Street.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="25" selection-end-column="46" />
+            <state relative-caret-position="189">
+              <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#717#718#0" expanded="true" />
+                <element signature="e#761#762#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AmarpalAmrith/TrainingMaterials/Utilities.java">
+        <entry file="file://$PROJECT_DIR$/src/AmarpalAmrith/TrainingMaterials/StreetFileParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="279">
+              <caret line="112" selection-start-line="112" selection-end-line="112" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AmarpalAmrith/TrainingMaterials/FileParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1490#1491#0" expanded="true" />
-                <element signature="e#1529#1530#0" expanded="true" />
-                <element signature="e#2193#2202#0" expanded="true" />
+                <element signature="e#2274#2275#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,10 +73,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/AmarpalAmrith/TrainingMaterials/Main.java" />
         <option value="$PROJECT_DIR$/src/AmarpalAmrith/TrainingMaterials/Utilities.java" />
-        <option value="$PROJECT_DIR$/src/AmarpalAmrith/TrainingMaterials/Street.java" />
         <option value="$PROJECT_DIR$/src/AmarpalAmrith/TrainingMaterials/FileParser.java" />
+        <option value="$PROJECT_DIR$/src/AmarpalAmrith/TrainingMaterials/StreetFileParser.java" />
+        <option value="$PROJECT_DIR$/src/AmarpalAmrith/TrainingMaterials/Main.java" />
+        <option value="$PROJECT_DIR$/src/AmarpalAmrith/TrainingMaterials/Street.java" />
       </list>
     </option>
   </component>
@@ -167,15 +160,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558362122032</updated>
-      <workItem from="1558362126841" duration="5602000" />
+      <workItem from="1558362126841" duration="12744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5602000" />
+    <option name="totallyTimeSpent" value="12744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1440" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Designer" />
@@ -189,8 +183,8 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -217,35 +211,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AmarpalAmrith/TrainingMaterials/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/AmarpalAmrith/TrainingMaterials/StreetFileParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="279">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2274#2275#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AmarpalAmrith/TrainingMaterials/Street.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="25" selection-end-column="46" />
+        <state relative-caret-position="189">
+          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AmarpalAmrith/TrainingMaterials/FileParser.java">
+    <entry file="file://$PROJECT_DIR$/src/AmarpalAmrith/TrainingMaterials/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        <state relative-caret-position="165">
+          <caret line="11" column="64" lean-forward="true" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1490#1491#0" expanded="true" />
-            <element signature="e#1529#1530#0" expanded="true" />
-            <element signature="e#2193#2202#0" expanded="true" />
           </folding>
         </state>
       </provider>
