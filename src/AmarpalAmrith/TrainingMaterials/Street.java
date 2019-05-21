@@ -31,20 +31,4 @@ public class Street {
         return streetOfHouses.size();
     }
 
-    public List<Integer> getOneSideAtATime() {
-        List<Integer> allHouses = new ArrayList<>();
-        allHouses.addAll(leftHouses);
-        allHouses.addAll(rightHouses);
-        return allHouses;
-    }
-
-    public int getNumberOfCrossingsAllHousesAtOnce() {
-        if (leftHouses.size() == rightHouses.size()) {
-            return leftHouses.size() * 2 - 1;
-        } else if (leftHouses.size() > rightHouses.size()) {
-            return rightHouses.size() * 2;
-        } else {
-            return leftHouses.size() * 2;
-        }
-    }
 }

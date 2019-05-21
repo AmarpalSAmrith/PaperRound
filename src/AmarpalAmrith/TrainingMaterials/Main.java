@@ -18,12 +18,13 @@ public class Main {
         streetList.add(strangeStreet);
 
         for (Street s : streetList) {
+            Route route = new Route(s);
             System.out.println(s.getStreetOfHouses());
             System.out.println("Left: " + s.getLeftHouses());
             System.out.println("Right: " + s.getRightHouses());
             System.out.println("Count: " + s.getNumberOfHouses());
-            System.out.println("Number of Crossings: " + s.getNumberOfCrossings());
-            System.out.println("Route one side at a time" + s.getOneSideAtATime());
+            System.out.println("Number of Crossings: " + route.getNumberOfCrossingsAllHousesAtOnce());
+            System.out.println("Route one side at a time" + route.getOneSideAtATime());
             System.out.println("======================");
         }
     }
