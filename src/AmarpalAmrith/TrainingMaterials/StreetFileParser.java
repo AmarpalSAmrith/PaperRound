@@ -11,21 +11,18 @@ public class StreetFileParser {
         if (!isValidFile(houses)) {
             throw new IllegalArgumentException("This is not a valid file of house numbers");
         }
-
-
         return new Street(houses, getOddHouses(houses), getEvenHouses(houses));
     }
-
 
     private static List<Integer> convertFile(String file) throws IllegalArgumentException {
         String[] splitString = file.split(" ");
         List<String> list = Arrays.asList(splitString);
+        List<Integer> numberList = new ArrayList<>();
 
         if (!isIntegers(list)) {
             throw new IllegalArgumentException("not a list of numbers!");
         }
 
-        List<Integer> numberList = new ArrayList<>();
 
         for (String s : list) {
             numberList.add(Integer.valueOf(s));
